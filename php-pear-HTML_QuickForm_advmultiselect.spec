@@ -5,8 +5,8 @@
 
 Summary:	%{_pearname} - Element for HTML_QuickForm that emulate a multi-select
 Name:		php-pear-%{_pearname}
-Version:	1.4.1
-Release:	%mkrel 2
+Version:	1.5.0
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -77,7 +77,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/{docs,examples,ChangeLog,NEWS}
+%doc %{_pearname}-%{version}/{examples,ChangeLog}
 %{_datadir}/pear/%{_class}/%{_subclass}/*.php
 %dir %{_datadir}/pear/data/%{_pearname}
 %{_datadir}/pear/data/%{_pearname}/*.js
