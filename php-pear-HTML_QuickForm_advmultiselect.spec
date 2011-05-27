@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.5.1
-Release:	%mkrel 3
+Release:	%mkrel 4
 Summary:	Element for HTML_QuickForm that emulate a multi-select
 License:	PHP License
 Group:		Development/PHP
