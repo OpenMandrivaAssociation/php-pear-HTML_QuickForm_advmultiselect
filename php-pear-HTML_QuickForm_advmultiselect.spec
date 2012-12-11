@@ -60,3 +60,60 @@ fi
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/data/%{upstream_name}
 %{_datadir}/pear/packages/%{upstream_name}.xml
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.5.1-5mdv2012.0
++ Revision: 742001
+- fix major breakage by careless packager
+
+* Fri May 27 2011 Oden Eriksson <oeriksson@mandriva.com> 1.5.1-4
++ Revision: 679352
+- mass rebuild
+
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 1.5.1-3mdv2011.0
++ Revision: 613678
+- the mass rebuild of 2010.1 packages
+
+* Sat Dec 12 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.5.1-2mdv2010.1
++ Revision: 477872
+- spec cleanup
+- use pear installer
+- don't ship tests, even in documentation
+- own all directories
+- use rpm filetriggers starting from mandriva 2010.1
+
+* Sun Jun 07 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.5.1-1mdv2010.0
++ Revision: 383552
+- update to new version 1.5.1
+
+* Sun Mar 22 2009 Funda Wang <fwang@mandriva.org> 1.5.0-1mdv2009.1
++ Revision: 360150
+- new version 1.5.0
+
+* Thu Jan 01 2009 Oden Eriksson <oeriksson@mandriva.com> 1.4.1-2mdv2009.1
++ Revision: 322119
+- rebuild
+
+* Tue Sep 02 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.4.1-1mdv2009.0
++ Revision: 278919
+- update to new version 1.4.1
+
+* Thu Jul 17 2008 Oden Eriksson <oeriksson@mandriva.com> 1.4.0-2mdv2009.0
++ Revision: 236878
+- rebuild
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Fri Jul 20 2007 Oden Eriksson <oeriksson@mandriva.com> 1.4.0-1mdv2008.0
++ Revision: 53922
+- Import php-pear-HTML_QuickForm_advmultiselect
+
+
+
+* Fri Jul 20 2007 Oden Eriksson <oeriksson@mandriva.com> 1.4.0-1mdv2008.0
+- initial Mandriva package
