@@ -8,7 +8,7 @@ Release:	7
 Summary:	Element for HTML_QuickForm that emulate a multi-select
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/HTML_QuickForm_advmultiselect/
+URL:		https://pear.php.net/package/HTML_QuickForm_advmultiselect/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
